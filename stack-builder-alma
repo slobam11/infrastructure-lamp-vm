@@ -1,0 +1,13 @@
+Commands we have been used. 
+
+Systemctl status httpd 
+firewall-cmd --permanent --add-service=http
+systemctl daemon-reload
+echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/info.php
+cat ~/.ssh/id_ed25519.pub
+dnf update -y 
+dnf upgrdae -y 
+mkdir 
+hostname -i 
+dnf install -y vim wget curl bash-completion net-tools epel-release
+dnf install mariadb-server
